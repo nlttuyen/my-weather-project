@@ -91,23 +91,22 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: orangered;
 }
-
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
+  font-size: 17px;
+  color: rgb(52, 89, 255);
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 15px;
 }
 .current-weather {
-  border: 1px solid darkblue;
+  border: 1px solid rgba(0, 0, 139, 0.521);
   border-radius: 5px;
   padding: 10px;
 }
@@ -136,6 +135,7 @@ li:first-letter {
 .float-left #temperature {
   color: orangered;
   font-weight: bolder;
+  margin-left: 8px;
 }
 .float-left .units {
   color: rgb(52, 89, 255);
@@ -148,4 +148,12 @@ li:first-letter {
 .add-info #wind,
 .add-info #humidity {
   color: orangered;
+}
+.forecast-weather {
+  border: 1px solid rgba(255, 68, 0, 0.459);
+  padding: 10px;
+  border-radius: 5px;
+}
+.github-link {
+  color: darkorange;
 }
